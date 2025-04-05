@@ -182,6 +182,8 @@ export default function Chat() {
             <div ref={messagesEndRef} />
           </CardContent>
 
+
+          <CardFooter className="p-4 bg-gradient-to-r from-gray-50 to-gray-100 rounded-b-lg flex flex-col items-start">
           {imagePreview && (
             <div className="px-6 pb-3">
               <div className="relative inline-block">
@@ -205,8 +207,6 @@ export default function Chat() {
               </div>
             </div>
           )}
-
-          <CardFooter className="p-4 bg-gradient-to-r from-gray-50 to-gray-100 rounded-b-lg">
             <form onSubmit={handleSubmit} className="flex w-full space-x-2">
               <Button
                 type="button"
