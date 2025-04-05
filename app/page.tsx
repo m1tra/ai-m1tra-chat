@@ -117,8 +117,8 @@ export default function Chat() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 p-4 relative ">
-      <div className="absolute top-7 left-1/2 -translate-x-1/2">
-        <div className="flex items-center h-full gap-2 text-xl">
+      <div className="absolute top-7 left-0 right-0 w-full">
+        <div className="flex items-center h-full gap-2 text-xl w-full justify-center">
           <Sparkles className="h-full text-pink-500" />
           <span className="text-transparent bg-gradient-to-l  font-bold from-purple-400 to-pink-500 bg-clip-text text-3xl">AI m1tra chat</span>
         </div>
